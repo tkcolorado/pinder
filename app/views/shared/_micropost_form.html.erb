@@ -3,11 +3,11 @@
   <div class="field">
     <%= f.text_area :content, placeholder: "Compose new micropost..." %>
   </div>
-  <%= f.submit "Post", class: "btn btn-primary" %>
+  <%= f.submit "Post", class: "btn btn-danger" %>
   <span class="picture">
     <%= f.file_field :picture, accept: 'image/jpeg,image/gif,image/png' %>
   </span>
-  <span><%= link_to "プロフィール画面変更", edit_user_path(current_user) %></span>
+  <%= link_to "プロフィール画面変更", edit_user_path(current_user),  class: "btn btn-danger" %>
 <% end %>
 
 <script type="text/javascript">
