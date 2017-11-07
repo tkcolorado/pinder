@@ -43,21 +43,40 @@
   </div>
 
   
-    <div class="container">
+    <div class="contain">
         <div class="row o-3column">
          <div class="col-md-4">
           <h2>食事</h2>
-          <img src="neon.jpg" class="img-responsive"></p>
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          <div><%= link_to image_tag("meat.jpg", alt: "Rails logo"),
+              'http://rubyonrails.org/' %></div> 
+          強くなるためには食事はとにかく重要です。
+            <ul>
+            <li>PFC(タンパク質、脂質、カロリー)</li>
+            <li>食事内容(頻度、食材、調理法、食事Hackなど)</li>
+            <li>目的別の食事(アスリート、ダイエット、ボディビルなど)</li>
+　　　　　  <li>実際のプロの食事</li>
+　　　　　  <li>自分たちの食事のログと他人からの相互アドバイス</li>
+          </ul> 
         </div>
          <div class="col-md-4">
           <h2>運動</h2>
-          <img src="neon.jpg" class="img-responsive">
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </div>
+          <div><%= link_to image_tag("weight.jpg", alt: "Rails logo"),
+              'http://rubyonrails.org/' %></div>
+          <p>強くなるためには運動はとにかく重要です。</p>
+          <ul>
+            <li>無酸素運動</li>
+            <li>有酸素運動</li>
+            <li>アスリート志向</li>
+　　　　　  <li>ボディビル志向(BIG3)</li>
+　　　　　  <li>ダイエット志向(糖質制限、有酸素運動、食事制限etc)</li>
+            <li>相互トレーニングフォームチェックなど</li>
+            <li>オススメの目標、手本にすべき人、動画を紹介し合うなど</li> 
+          </ul>
+      </div>
         <div class="col-md-4">
           <h2>睡眠</h2>
-          <img src="neon.jpg" class="img-responsive">
+          <div><%= link_to image_tag("sleep.jpg", alt: "Rails logo"),
+              'http://rubyonrails.org/' %></div>
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
         </div>
       </div>
