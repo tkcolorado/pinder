@@ -24,14 +24,6 @@
   </div>
 
   <div class="jumbotron">
-　<div class="container">
-　　<h1>Hello, world!</h1>
-　　<p>...</p>
-　　<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-　</div> <!-- /container -->    
-</div>
-
-  <div class="jumbotron">
     <div class="container">
     <h1>Hello, world!<br>We are muscle community!</h1>
     <!-- <%= link_to image_tag("neon2.jpg", alt: "neon"),
@@ -46,14 +38,17 @@
     <p><%= link_to "Sign up now!", signup_path, class: "btn btn-danger btn-lg btn-primary" %></p> 
     </div>
   </div>
-
+    
+    <div class="topline">
+    <h1>どれも大事じゃない？</h1>
+ 　 </div>
   
     <div class="contain">
         <div class="row o-3column">
          <div class="col-md-4">
           <h2>食事</h2>
-          <div><%= link_to image_tag("meat.jpg", alt: "Rails logo"),
-              'http://rubyonrails.org/' %></div> 
+          <p><%= link_to image_tag("meat.jpg", alt: "Rails logo"),
+              'http://rubyonrails.org/' %></p> 
           <p>強くなるためには食事はとにかく重要です。</p>
            <ul>
             <li>PFC(タンパク質、脂質、カロリー)</li>
@@ -65,8 +60,8 @@
         </div>
          <div class="col-md-4">
           <h2>運動</h2>
-          <div><%= link_to image_tag("weight.jpg", alt: "Rails logo"),
-              'http://rubyonrails.org/' %></div>
+          <p><%= link_to image_tag("weight.jpg", alt: "Rails logo"),
+              'http://rubyonrails.org/' %></p>
           <p>強くなるためには運動はとにかく重要です。</p>
           <ul>
             <li>無酸素運動</li>
@@ -80,8 +75,8 @@
       </div>
         <div class="col-md-4">
           <h2>睡眠</h2>
-          <div><%= link_to image_tag("sleep.jpg", alt: "Rails logo"),
-              'http://rubyonrails.org/' %></div>
+          <p><%= link_to image_tag("sleep.jpg", alt: "Rails logo"),
+              'http://rubyonrails.org/' %></p>
           <p>強い体をつくるためにはは体はとにかく重要です。</p>
             <ul>
             <li>睡眠のメカニズム</li>
@@ -95,6 +90,9 @@
             </div>
       </div>
 
+      <div class="topline">
+        <h1>MusclePicksは皆さんの体を応援します。</h1>
+      </div>      
 
         <p>最近運動不足がちな人。</p>
         <p>最近お腹が出て来た人。</p>
