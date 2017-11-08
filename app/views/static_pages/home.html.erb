@@ -18,6 +18,11 @@
   </div>
 
 <% else %>
+
+ <div class="topline">
+    <h1>世界にもっと筋肉を( ・∇・)</h1>
+  </div>
+
   <div class="jumbotron">
 　<div class="container">
 　　<h1>Hello, world!</h1>
@@ -25,10 +30,6 @@
 　　<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 　</div> <!-- /container -->    
 </div>
-
-  <div class="topline">
-    <h1>世界にもっと筋肉を( ・∇・)</h1>
-  </div>
 
   <div class="jumbotron">
     <div class="container">
@@ -42,7 +43,7 @@
       <br>健康管理情報シェアのためのSNSです。
     </h2>
 
-    <%= link_to "Sign up now!", signup_path, class: "btn btn-danger btn-lg btn-primary" %>
+    <p><%= link_to "Sign up now!", signup_path, class: "btn btn-danger btn-lg btn-primary" %></p> 
     </div>
   </div>
 
@@ -53,14 +54,14 @@
           <h2>食事</h2>
           <div><%= link_to image_tag("meat.jpg", alt: "Rails logo"),
               'http://rubyonrails.org/' %></div> 
-          強くなるためには食事はとにかく重要です。
-            <ul>
+          <p>強くなるためには食事はとにかく重要です。</p>
+           <ul>
             <li>PFC(タンパク質、脂質、カロリー)</li>
             <li>食事内容(頻度、食材、調理法、食事Hackなど)</li>
             <li>目的別の食事(アスリート、ダイエット、ボディビルなど)</li>
 　　　　　  <li>実際のプロの食事</li>
 　　　　　  <li>自分たちの食事のログと他人からの相互アドバイス</li>
-          </ul> 
+           </ul> 
         </div>
          <div class="col-md-4">
           <h2>運動</h2>
@@ -93,16 +94,15 @@
           </ul>
             </div>
       </div>
-        <li>最近運動不足がちな人。</li>
-        <li>最近お腹が出て来た人。</li>
-        <div class="feature3">最近体調不良がちな人。</div>
+
+
+        <p>最近運動不足がちな人。</p>
+        <p>最近お腹が出て来た人。</p>
+        <p>最近体調不良がちな人。</p>
           <p>みんなで健康について語り合おう。</p>
        
-        <div class="tag1">食事、睡眠、運動に関しての徹底したケアで健康を勝ち取ろう。</div>
-
-
-      <h2>CSSで統一する。</h2>
-      <h2>Pinderは健康管理共有型SNSです。</h2>
+        <h2>食事、睡眠、運動に関しての徹底したケアで健康を勝ち取ろう。</h2>
+        <h2>Pinderは健康管理共有型SNSです。</h2>
        
         <ul class = "description">
           <li>カテゴリー別表示機能、テキストの投稿などができ、知りたい情報に応じてキュレーションできます。</li>
@@ -115,7 +115,7 @@
       <h1>Muscle & Community</h1>
       </div>
 
-<%= link_to "Let's muscle member!", signup_path, class: "btn btn-danger btn-lg btn-primary" %> 
+<p><%= link_to "Let's muscle member!", signup_path, class: "btn btn-danger btn-lg btn-primary" %></p> 
   </div> 
 
   <%= link_to image_tag("rails.png", alt: "Rails logo"),
