@@ -19,5 +19,4 @@ if ARGV.first
   end
 end
 
-gem 'rbvmomi', version
 load Gem.bin_path('rbvmomi', 'rbvmomish', version)

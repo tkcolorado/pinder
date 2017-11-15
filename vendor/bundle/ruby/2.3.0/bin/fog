@@ -19,5 +19,4 @@ if ARGV.first
   end
 end
 
-gem 'fog', version
 load Gem.bin_path('fog', 'fog', version)

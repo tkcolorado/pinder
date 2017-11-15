@@ -1,0 +1,13 @@
+current directory: /Users/sawamuratakahiro/pinder/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+/Users/sawamuratakahiro/.rbenv/versions/2.3.4/bin/ruby -r ./siteconf20171115-18237-i0vw7l.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sawamuratakahiro/pinder/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/sawamuratakahiro/pinder/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/sawamuratakahiro/pinder/vendor/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

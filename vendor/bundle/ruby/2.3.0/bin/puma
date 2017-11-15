@@ -19,5 +19,4 @@ if ARGV.first
   end
 end
 
-gem 'puma', version
 load Gem.bin_path('puma', 'puma', version)
