@@ -63,7 +63,7 @@ Rails.application.configure do
 #sendgrid用の設定
 config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'coedo-sample-app.herokuapp.com'
+  host = 'guarded-gorge-73527.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
