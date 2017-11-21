@@ -105,6 +105,15 @@ class User < ApplicationRecord
     following.include?(other_user)
   end
 
+  #検索拡張部分作成  
+  def self.search(search) #ここでのselfはuserを表す。
+    if search 
+      where(['name LIKE ?', "%#{search}%"]) #検索とnameの部分一致を表示。User.は省略
+    else
+      all #検索にヒットするようなものがなければ全件表示させる。
+    end
+
+  end
 
  private
 
