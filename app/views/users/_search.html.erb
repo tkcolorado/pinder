@@ -1,0 +1,5 @@
+<p><%= yield(:search_name) %></p>
+<%= form_tag(yield(:path), method: :get) do %>
+  <%= text_field_tag :search, params[:search] %>
+  <%= submit_tag 'Search', :name => nil %>
+<% end %>
