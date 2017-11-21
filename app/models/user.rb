@@ -112,7 +112,6 @@ class User < ApplicationRecord
     else
       all #検索にヒットするようなものがなければ全件表示させる。
     end
-
   end
 
  private

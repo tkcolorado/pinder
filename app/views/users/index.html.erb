@@ -5,7 +5,7 @@
 
 <!-検索機能-!>
 <p>user検索</p>
-<%= form_tag(users_path) do %>
+<%= form_tag(users_path, method: :get) do %>
   <%= text_field_tag :search %>
   <%= submit_tag 'Search', :name => nil %>
 <% end %>  
