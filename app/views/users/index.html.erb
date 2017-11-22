@@ -8,8 +8,10 @@
 
 <!-検索機能-!>
 <ul class="users">
-  <%= render 'users/search' %> 　<!-- searchパーシャル呼出 --!>
-  <%= render @users %>
-</ul>
+  <div class = "search-box">
+  <%= render 'users/search' %> 　<!-- searchパーシャル呼出 --!>  
+  </div>
+  <%= render @users %> 
+</ul>>
 
 <%= will_paginate %>

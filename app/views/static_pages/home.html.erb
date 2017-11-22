@@ -15,6 +15,7 @@
       <h3>タイムライン</h3>
 
        <!--検索拡張機能  --!>
+      <div class= "search-box">
       <p>content serch</p>
       <%= form_tag root_path, :method => 'get' do %>
         <p>
@@ -22,6 +23,7 @@
           <%= submit_tag "Search", :name => nil %>
         </p>
       <% end %> 
+      </div>
       <!--ここまで検索部分(micropost)--!>
       <%= render 'shared/feed' %>
     </div>

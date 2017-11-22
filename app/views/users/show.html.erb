@@ -19,9 +19,10 @@
     <% if @user.microposts.any? %>
       <h3>投稿数 (<%= @user.microposts.count %>)</h3>
       
-      <!--検索拡張機能マイクロポスト  -->
-      <%= render 'users/search' %>  　<-- searchパーシャル呼出 -->
-
+      <div class= "search-box"> 
+      <!--検索拡張機能マイクロポスト  --!>
+      <%= render 'users/search' %>  　<!-- searchパーシャル呼出 --!>
+      </div>
       <ol class="microposts">
         <%= render @microposts %>
       </ol>
