@@ -14,6 +14,11 @@ Rails.application.routes.draw do
   end
   resources :account_activations, only: [:edit]
   resources :password_resets,     only: [:new, :create, :edit, :update]
-  resources :microposts,          only: [:create, :destroy]
+  #resources :microposts,          only: [:create, :destroy]
   resources :relationships,       only: [:create, :destroy]
+
+  #like機能拡張用に指定
+  resources :microposts do
+    resources :likes, only: [:create, :destroy]
+  end
 end
