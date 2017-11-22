@@ -1,5 +1,7 @@
 class Micropost < ApplicationRecord
   belongs_to :user
+  has_many :likes, dependent: :destroy
+
   default_scope -> { order(created_at: :desc) }
   mount_uploader :picture, PictureUploader
   validates :user_id, presence: true
@@ -12,6 +14,11 @@ class Micropost < ApplicationRecord
     else
       all #全て表示。Micropost.は省略。
     end
+  end
+  
+  #likeマークをつける
+  def like_user(user_id)
+   likes.find_by(user_id: user_id)
   end
 
   private
