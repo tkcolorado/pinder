@@ -1,14 +1,3 @@
-# pinder  
-やっとpushに成功。これ元からversion管理しておけばこんな面倒はなかった。  
-
--likeマーク  
--検索  
--followとリクエスト  
--プロフィールの詳細(画像変更と項目の追加)  
--accountのプルダウンメニューのうまく繋がらないのを修正する。  
--類似企業をしらべる。  
--ライブ要素を含める。
-
 ## Pinder 
 This application is SNS service of healthcare.
 
@@ -26,7 +15,8 @@ The base of this app is rails tutorial, I trained the system of RoR through deve
 - Following system
 - Search system  
 - CRUD  
-- Timeline
+- Timeline  
+- post(text/pic)  
 
 For more information, see ``.
 
@@ -46,11 +36,17 @@ For more information, see ``.
 
     $ git clone 
 
-## Anything Else
-
-AnythingAnythingAnything
-AnythingAnythingAnything
-AnythingAnythingAnything
+## Anything Else  
+use  
+-RoR 5.1.4  
+-Ruby 2.3.4  
+-Heroku  
+-Mysql 5.7  
+-CentOS 7  
+-Apache  
+-puma  
+-sendgrid  
+-AWS S3
 
 ## Author
 
