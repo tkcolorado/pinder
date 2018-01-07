@@ -9,13 +9,53 @@
 -類似企業をしらべる。  
 -ライブ要素を含める。
 
+## Pinder 
+This application is SNS service of healthcare.
 
-*参考にしたい人  
--室伏さん    
--為末さん 
--ウサインボルト  
--モハメドアリ  
--バッキャオ  
--ピーター・アーツ  
--アーネスト・ホースト  
--マイケル・ジョーダン
+## Description
+The base of this app is rails tutorial, I trained the system of RoR through developing this app.  
+
+
+***DEMO:***
+
+![Demo]()
+
+## Features
+
+- Like Button
+- Following system
+- Search system  
+- CRUD  
+- Timeline
+
+For more information, see ``.
+
+## Requirement
+
+- Requirement
+- Requirement
+- Requirement
+
+## Usage
+
+1. Usage
+2. Usage
+3. Usage
+
+## Installation
+
+    $ git clone 
+
+## Anything Else
+
+AnythingAnythingAnything
+AnythingAnythingAnything
+AnythingAnythingAnything
+
+## Author
+
+tkcolorado
+
+## License
+
+[MIT]tkcolorado 2016
