@@ -1,5 +1,5 @@
 ## Pinder 
-This application is SNS service of healthcare.
+This application is the SNS service of healthcare.
 
 ## Description
 The base of this app is rails tutorial, I trained the system of RoR through developing this app.  
@@ -38,15 +38,17 @@ For more information, see ``.
 
 ## Anything Else  
 use  
--RoR 5.1.4  
--Ruby 2.3.4  
--Heroku  
--Mysql 5.7  
--CentOS 7  
--Apache  
--puma  
--sendgrid  
--AWS S3
+- RoR 5.1.4  
+- Ruby 2.3.4  
+- Heroku  
+- Mysql 5.7  
+- CentOS 7  
+- Apache  
+- puma  
+- sendgrid  
+- AWS S3  
+- Gravatar  
+- Rspec
 
 ## Author
 
@@ -54,4 +56,4 @@ tkcolorado
 
 ## License
 
-[MIT]tkcolorado 2016
+MIT license (© 2017-2018 tkcolorado)
